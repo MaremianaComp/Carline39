@@ -1,0 +1,45 @@
+Admin@DESKTOP-RLPP5DA MINGW64 ~
+$ cd ~/dev/carline39
+
+Admin@DESKTOP-RLPP5DA MINGW64 ~/dev/carline39 (master)
+$ 
+
+Admin@DESKTOP-RLPP5DA MINGW64 ~/dev/carline39 (master)
+$ git add task.txt
+
+Admin@DESKTOP-RLPP5DA MINGW64 ~/dev/carline39 (master)
+$ git commit -m 'Новые файлы'
+[master 35b7e9c] Новые файлы
+ 1 file changed, 1 insertion(+)
+ create mode 100644 task.txt
+
+Admin@DESKTOP-RLPP5DA MINGW64 ~/dev/carline39 (master)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 330 bytes | 165.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To github.com:MaremianaComp/Carline39.git
+   8cbb787..35b7e9c  master -> master
+
+
+
+
+Admin@DESKTOP-RLPP5DA MINGW64 ~/dev/carline39 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   readme.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        cheatsheet.txt
+        new.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
