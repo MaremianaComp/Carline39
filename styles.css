@@ -1,3 +1,7 @@
+body {
+  background-color: rgba(131, 179, 211, 0.2);
+}
+
 .list {
   display: flex;
   justify-content: center;
@@ -7,7 +11,7 @@
 }
 
 .card {
-  margin: 5px;
+  margin: 7px;
 }
 
 .image {
